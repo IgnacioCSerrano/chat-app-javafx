@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" fx:id="apContenedor" prefHeight="497.0" prefWidth="842.0" style="-fx-background-color: lightblue;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ControladorPantallaPrincipal">
+   <children>
+      <AnchorPane fx:id="apCabacera" layoutX="20.0" layoutY="20.0" prefHeight="40.0" prefWidth="800.0" style="-fx-background-color: mintcream;" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="22.0" AnchorPane.topAnchor="20.0" />
+      <AnchorPane fx:id="apContenido" layoutX="20.0" layoutY="77.0" prefHeight="400.0" prefWidth="800.0" style="-fx-background-color: mintcream;">
+         <children>
+            <Button fx:id="btnAccess" layoutX="325.0" layoutY="175.0" mnemonicParsing="false" onAction="#acceder" text="Iniciar Chat">
+               <font>
+                  <Font size="24.0" />
+               </font></Button>
+         </children></AnchorPane>
+   </children>
+</AnchorPane>

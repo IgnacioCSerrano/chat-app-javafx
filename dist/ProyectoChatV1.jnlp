@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="ProyectoChatV1.jnlp">
+  <information>
+    <title>ProyectoChatV1</title>
+    <vendor>David</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="ProyectoChatV1.jar" size="24849" download="eager" />
+    <jar href="lib\mysql-connector-java-5.1.18-bin.jar" size="775587" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="ProyectoChatV1" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="controller.Principal"  name="ProyectoChatV1" />
+  <update check="always"/>
+</jnlp>
